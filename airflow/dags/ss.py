@@ -35,8 +35,8 @@ def take_screenshot(url: str, ti):
     return ss
 
 def save_file(ss, bucket_name: str, file_name: str):
-    ACCESS_KEY = 'AKIAVRTYUDEM4Y23QHXH'
-    SECRET_KEY = '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'
+    ACCESS_KEY = 'AKIAVR*************************'
+    SECRET_KEY = 'ErZ***********************************'
     s3 = boto3.client('s3', aws_access_key_id=ACCESS_KEY,
                       aws_secret_access_key=SECRET_KEY)
 
